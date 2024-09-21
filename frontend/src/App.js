@@ -1,13 +1,14 @@
 // src/App.js
-import React from "react";
-import HomePage from "../frontend/src/components/HomePage";
+import './App.css';
+import React from 'react';
+import HomePage from './components/HomePage';
 
 function App() {
-    return (
-        <div className="App">
-            <HomePage />
-        </div>
-    );
+  return (
+    <div className="App">
+      <HomePage />
+    </div>
+  );
 }
 
 export default App;
